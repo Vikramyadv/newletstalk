@@ -13,10 +13,7 @@ connectDB();
 const app = express();
 
 app.use(express.json()); // to accept json data
-app.use(cors({
-  origin: "https://letstalkfrontend-2zq5.vercel.app/",
-  credentials: true
-}))
+app.use(cors())
 // app.get("/", (req, res) => {
 //   res.send("API Running!");
 // });
