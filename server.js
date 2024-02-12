@@ -49,7 +49,7 @@ const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
     origin:
-      "https://65c7a9b711889985f38b12c6--warm-melomakarona-a9e5cf.netlify.app",
+      "https://letstalkfrontend-2zq5.vercel.app/",
     // credentials: true,
   },
 });
